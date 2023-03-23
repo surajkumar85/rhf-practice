@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid white;
+  padding: 2em;
+  border-radius: 3px;
+  width: 50%;
+  margin: 2em auto;
+}
+.main > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.main > form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.main input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+.main button {
+  padding: 1em;
+  align-self: flex-start;
+}

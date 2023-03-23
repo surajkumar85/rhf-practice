@@ -1,0 +1,31 @@
+.main {
+  width: 50%;
+  margin: 3em auto;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.main > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.main > form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.main > form > label > input {
+  padding: 0.5em;
+  font-size: 1em;
+}
+.main form > button {
+  padding: 1em;
+  align-self: flex-start;
+}
+.main p {
+  color: red;
+}
