@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  align-items: center;
+  padding: 6rem;
+  gap: 2em;
+}
+.main > a {
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+}
+.main > a:hover {
+  color: green;
+  border-color: green;
+}
