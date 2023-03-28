@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 40%;
+  margin: 2em auto;
+}
+.main form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.main form label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+.main form label input {
+  padding: 0.4em;
+  width: 100%;
+}
+.main form button {
+  padding: 0.5em;
+}
+.source {
+  display: flex;
+  align-items: flex-end;
+}
