@@ -80,7 +80,7 @@ export default function Page() {
               label={`Source-${index + 1}`}
               type="text"
               register={register}
-              registerLabel={`source[${index}].sourceName`}
+              registerLabel={`source.${index}.sourceName`}
               required={false}
               errorMsg={
                 errors.source && errors.source[index]?.sourceName?.message
@@ -106,8 +106,8 @@ export default function Page() {
 type InputProp = {
   label: string;
   type: string;
-  register: any;
-  registerLabel: string;
+  register: UseFormRegister<FormField>;
+  registerLabel: Path<FormField>;
   required: boolean;
   value?: string;
   errorMsg?: string;
